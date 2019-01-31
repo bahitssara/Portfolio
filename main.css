@@ -5,6 +5,7 @@
 
 body {
     font-family:sans-serif;
+    text-align: center;
 }
 
 header {
@@ -15,32 +16,60 @@ header {
     left:0;
     margin:0px;
     background-color:grey;
-    position: fixed;
 }
 
 h1 {
     font-size: 20px;
     float: left;
     margin:0;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 10px;
 }
 
-ul {
+.nav-bar {
     list-style-type: none;
     display: flex;
-    align-content: flex-end;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
+li {
+    padding: 10px;
+}
 
-main {
+.headline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 75px;
+}
+
+.projects {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 75px;
+}
+
+.about-me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 75px;
+}
+
+.project-links {
+    list-style-type: none;
     display: flex;
-    flex-direction: column;
-
+    justify-content: center;
 }
 
-.main-image {
-    margin-top: 60px;
+.footer-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
 }
+
 
