@@ -3,25 +3,30 @@
 
 }
 
+html {
+    font-size: 1vw;
+}
+
 body {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Muli', sans-serif;
     text-align: center;    
-    color:white;
+    color:#1D1E18;
 }
 
 header {
-    font-family: 'Julius Sans One', sans-serif;
     width:100%;
     height:55px;
     position: fixed;
+    z-index: 1;
     top: 0;
     left:0;
     margin:0px;
-    background-color:#192231;
+    background-color:rgba(255, 255, 255, 0.7);    
 }
 
 h1 {
-    font-size: 35px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 3rem;
     float: left;
     margin:0;
     margin-top: 10px;
@@ -35,17 +40,23 @@ h1 {
     justify-content: flex-end;
 }
 
-li {
-    font-family: 'Judson', serif;
+nav li {
+    font-family: 'Muli', sans-serif;
     padding: 10px;
+    font-size: 1.5rem;
 }
 
-a:link {
-    color:white;
+header a:link {
+    color:#1D1E18;
+    
 }
 
-a:visited {
-    color: #98878F;
+header a:visited {
+    color: #CCDBDC;
+}
+
+.dropdown {
+    display: none;
 }
 
 .headline {
@@ -54,24 +65,19 @@ a:visited {
     margin-right: auto;
     width: 75%;
     margin-top: 80px;
-    padding-top: 20px;
-    padding-bottom:20px;
-    background-color:#98878F;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 1.7rem;
     box-shadow: 8px 8px 5px grey;
 
 }  
 
-h2 {
-    font-size: 30px;
-}
-
 .main-image {
-    width: 610px;
-    height: 375px;
+    width: 100%;
+    padding:30px;
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
 }
-
 
 .projects {
     display: block;
@@ -81,14 +87,27 @@ h2 {
     width: 75%;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #192231;
+    background-color: #1D1E18;
     color: white;
-    font-size: 20px;
+    font-size: 1.8rem;
+    box-shadow: 8px 8px 5px grey;
+}
+
+.projects h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 3.5rem;
+    color: #CCDBDC;
+
+}
+
+.projects h3 {
+    color: #CCDBDC;
+
 }
 
 .project-photo {
-    width: 610px;
-    height: 375px;
+    width: 100%;
+    padding:30px;
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
 }
@@ -99,6 +118,21 @@ h2 {
     filter: grayscale(0%); 
 }
 
+.project-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.project-links li {
+    color: white;
+    padding: 10px
+}
+
+.project-links a:visited {
+    color:#CCDBDC;
+}
+
 .about-me {
     display: block;
     margin-top: 70px;
@@ -107,53 +141,95 @@ h2 {
     width: 75%;
     padding-top: 20px;
     padding-bottom:20px;
-    background-color: #494E6B;
-    font-size: 20px;
+    font-size: 1.8rem;
+    background-color:#D7DEDC;
     box-shadow: 8px 8px 5px grey;
 
 }
 
-.project-links {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
+.about-me h2 {
+    font-family: 'Philosopher', sans-serif;
+
 }
 
 .about-me-photo {
-    width: 610px;
-    height: 375px;
+    width: 100%;
+    padding: 30px;
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
 }
 
-.icon {
-    width:54px;
+.about-me-text {
+    padding: 10px;
 }
+
+footer li {
+    font-size: 4rem;
+    
+}
+
+footer a:link {
+    color: black;
+}
+
+footer a:visited {
+    color:black;
+}
+
 
 .contact-page {
     text-align: center;
-    margin-top: 85px;
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
 }
 
 .contact-text {
     color:black;
     text-align: center;
-    font-size: 50px;
+    font-size: 4rem;
 }
 
 .contact {
-    font-size: 20px;
     color: black;
+    font-size:2.5rem;
 }
 
-.icon2 {
-    width:100px;
+.contact-page li {
+    font-size: 5.5rem;
+}
+
+.contact-page a:link {
+    color:black;
+}
+
+.contact-page a:visited {
+    color:black;
 }
 
 .footer-links {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    
 }
+
+
+@media screen and (min-width: 320px) {
+
+}
+
+
+@media screen and (min-width: 765px) {
+
+    
+}
+
+
+@media screen and (min-width: 1000px){
+
+}
+
+
 
 

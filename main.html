@@ -5,37 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sara Mayberry-Portfolio</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Philosopher" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 
 
 </head>
 <body>
-    <header role="banner">
-        <h1><a href=main.html>Sara Mayberry</a></h1>        
+    <header role="banner" class="banner">
+        <h1><a href=main.html>Sara Mayberry</a></h1>
         <nav role="navigation">
         <ul class="nav-bar">
             <li><a href="projects.html">Portfolio</a></li>
             <li><a href="aboutme.html">About Me</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>   
+        <select class="dropdown"> 
+                <option value="" selected="selected">Select</option> 
+                <option value="main.html">Home</option> 
+                <option value="projects.html">Portfolio</option> 
+                <option value="aboutme.html">About</option> 
+                <option value="contact.html">Contact</option> 
+              </select> 
+            
         </nav>     
     </header>
 
-<section class="projects">
-        <h2>Projects</h2>
-        <h3>The 1975 Quiz App</h3>
-        <img class="project-photo" src="QuizAppPic.png" alt="project photo">
-        <ul class="project-links">
-            <li>
-                <a href="https://github.com/bahitssara/QUIZAPP" target="_blank">Repository</a></li>
-            <li>
-                <a href="https://bahitssara.github.io/QUIZAPP/" target="_blank">Live Page</a></li>
-        </ul>
-        <p class="description">Quiz app to test knowledge of the all time best band around, The 1975. Uses basic HTML, CSS, JavaScript and jQuery to create a short interactive web app. </p>
-    </section>
+    <main class="main">
+            <section class="headline">
+                <div class="container">
+                <img class="main-image" src="owen-cl-571744-unsplash.jpg" alt="lights header image">
+                <h2 class="inside-img">Thanks for coming! Sara here. A lively Web Developer from Denver, who prides herself on her innate attention to detail and sponge like qualities. When I’m not coding, I’m cuddling up with cats, binge watching super hero shows, or going to concerts. Look forward to connecting with you!</h2>
+                </div>
+            </section>
 
-    <footer>
+        <footer>
             <ul class="footer-links">
                 <li><a href="mailto:saraamayberry@yahoo.com"><i class="fas fa-envelope"></i>
                 </a>
