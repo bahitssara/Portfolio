@@ -82,8 +82,6 @@ header a:hover {
 .main-image {
     width: 100%;
     padding:30px;
-    -webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
 }
 
 .projects {
@@ -247,22 +245,6 @@ footer a:hover {
     display: flex;
     justify-content: space-evenly;
     
-}
-
-
-@media screen and (min-width: 320px) {
-
-}
-
-
-@media screen and (min-width: 765px) {
-
-    
-}
-
-
-@media screen and (min-width: 1000px){
-
 }
 
 
