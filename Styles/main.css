@@ -140,10 +140,6 @@ header a:hover {
     filter: grayscale(0%); 
 }
 
-.description {
-    padding:20px;
-}
-
 .project-links{
     font-family: 'Muli', sans-serif;
     color:white;
@@ -160,14 +156,22 @@ header a:hover {
     font-size: 2rem;
 }
 
-.project-links a:visited {
-    color:white;
-}
-
  button:hover {
     cursor: pointer;
     transform: scale(1.1);
     background-color:#D45113;
+}
+
+.project-links a:link {
+    color:white;
+}
+
+.project-links a:visited {
+    color:white;
+}
+
+.description {
+    padding:20px;
 }
 
 .about-me-div {
