@@ -15,13 +15,13 @@ body {
 
 header {
     width:100%;
-    height:55px;
+    height:62px;
     position: fixed;
     z-index: 1;
     top: 0;
     left:0;
     margin:0px;
-    background-color:rgba(255, 255, 255, 0.664);    
+    background-color:rgba(0, 0, 0, 0.711);    
 }
 
 h1 {
@@ -47,19 +47,19 @@ nav li {
 }
 
 header a:link {
-    color:#1D1E18;
+    color:white;
     
 }
 
 header a:visited {
-    color: #5F634F;
+    color: white;
 }
 
 header a:hover {
     cursor: pointer;
-    background: #5F634F;
+    background: rgba(212, 81, 19, 0.711);
 	text-decoration: none;
-	color: #fff;
+	color: white;
 	border-radius: 4px;
 	transform: scale(1.05) rotate(-1deg);
 
@@ -78,6 +78,15 @@ header a:hover {
     box-shadow: 8px 8px 5px grey;
 
 }  
+
+.main-page {
+    font-family: 'Philosopher', sans-serif;
+    background-color: rgba(212, 81, 19, 0.711);
+    margin-left:12rem;
+    margin-right:12rem;
+    color:white;
+    border-radius:4px;
+}
 
 .main-image {
     width: 100%;
@@ -102,11 +111,17 @@ header a:hover {
 .projects h2 {
     font-family: 'Philosopher', sans-serif;
     font-size: 3.5rem;
-    color: #1D1E18;
+    color: white;
+    background-color:rgba(212, 81, 19, 0.711);
+    margin-left:19rem;
+    margin-right:19rem;
+    border-radius: 5px;
 }
 
 .projects h3 {
     color: #1D1E18;
+    text-decoration:underline dotted;
+    text-decoration-color: rgba(212, 81, 19, 0.711);;
 
 }
 
@@ -132,21 +147,25 @@ header a:hover {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    padding:10px;
 }
 
-.project-links li {
+ button {
+    background-color:black;
+    border-radius: 4px;
     color: white;
-    padding: 10px
+    padding: 20px;
+    font-size: 2rem;
 }
 
 .project-links a:visited {
-    color:#5F634F;
+    color:white;
 }
 
-.project-links a:hover {
+ button:hover {
     cursor: pointer;
-    transform: scale(.5);
-
+    transform: scale(1.1);
+    background-color:#D45113;
 }
 
 .about-me-div {
@@ -165,6 +184,11 @@ header a:hover {
 
 .about-me h2 {
     font-family: 'Philosopher', sans-serif;
+    color: white;
+    background-color:rgba(212, 81, 19, 0.711);
+    margin-left:22rem;
+    margin-right:22rem;
+    border-radius: 5px;
 
 }
 
@@ -210,9 +234,15 @@ footer a:hover {
 }
 
 .contact-text {
-    color:black;
     text-align: center;
     font-size: 4rem;
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+    background-color:rgba(212, 81, 19, 0.711);
+    margin-left:22rem;
+    margin-right:22rem;
+    border-radius: 5px;
+
 }
 
 .contact {
