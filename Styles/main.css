@@ -145,7 +145,8 @@ header a:hover {
     color:white;
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-right: 40px;
 }
 
  button {
