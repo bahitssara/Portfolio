@@ -44,6 +44,7 @@ nav li {
     font-family: 'Muli', sans-serif;
     padding: 10px;
     font-size: 1.8rem;
+    color:white;
 }
 
 header a:link {
@@ -144,10 +145,11 @@ header a:hover {
 }
 
 .project-links {
+    font-family: 'Muli', sans-serif;
+    color:white;
     list-style-type: none;
     display: flex;
     justify-content: center;
-    padding:10px;
 }
 
  button {
