@@ -26,12 +26,16 @@ header {
 
 h1 {
     font-family: 'Philosopher', sans-serif;
-    font-size: 3rem;
     float: left;
     margin:0;
     margin-top: 10px;
     margin-left: 10px;
     color:white;
+}
+
+h3 {
+    text-decoration:underline;
+    text-decoration-color: rgba(212, 81, 19, 0.711);
 }
 
 .nav-bar {
@@ -43,7 +47,6 @@ h1 {
 nav li {
     font-family: 'Muli', sans-serif;
     padding: 10px;
-    font-size: 1.8rem;
     color:white;
 }
 
@@ -75,7 +78,6 @@ header a:hover {
     margin-top: 150px;
     padding: 20px;
     background-color: #ffffff;
-    font-size: 1.7rem;
     box-shadow: 8px 8px 5px grey;
 
 }  
@@ -105,13 +107,11 @@ header a:hover {
     padding-bottom: 20px;
     background-color: #ffffff;
     color: #1D1E18;
-    font-size: 2rem;
     box-shadow: 8px 8px 5px grey;
 }
 
 .projects h2 {
     font-family: 'Philosopher', sans-serif;
-    font-size: 3.5rem;
     color: white;
     background-color:rgba(212, 81, 19, 0.711);
     margin-left:19rem;
@@ -140,7 +140,7 @@ header a:hover {
     filter: grayscale(0%); 
 }
 
-.project-links{
+.project-links {
     font-family: 'Muli', sans-serif;
     color:white;
     list-style-type: none;
@@ -184,7 +184,6 @@ header a:hover {
     width: 80%;
     padding-top: 20px;
     padding-bottom:20px;
-    font-size: 2.0rem;
     background-color:#ffffff;
     box-shadow: 8px 8px 5px grey;
 }
@@ -196,7 +195,6 @@ header a:hover {
     margin-left:22rem;
     margin-right:22rem;
     border-radius: 5px;
-
 }
 
 .about-me-photo {
@@ -226,9 +224,7 @@ footer a:visited {
 
 footer a:hover {
     cursor: pointer;
-
 }
-
 
 .contact-page {
     margin-top: 150px;
@@ -237,30 +233,20 @@ footer a:hover {
     margin-right:auto;
     flex-direction: column;
     box-shadow: 8px 8px 5px grey;
-
 }
 
 .contact-text {
     text-align: center;
-    font-size: 4rem;
     font-family: 'Philosopher', sans-serif;
     color: white;
     background-color:rgba(212, 81, 19, 0.711);
     margin-left:22rem;
     margin-right:22rem;
     border-radius: 5px;
-
 }
 
 .contact {
     color: black;
-    font-size:2.5rem;
-}
-
-
-
-.contact-page li {
-    font-size: 5.5rem;
 }
 
 .contact-page a:link {
@@ -286,4 +272,154 @@ footer a:hover {
 
 
 
+
+@media screen and (min-width: 320px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    nav li {
+        font-size: 15px;
+    }
+
+    .headline {
+        font-size: 20px;
+        margin-top:100px;
+        width:85%;
+    } 
+
+    .main-page {
+        margin-left:5rem;
+        margin-right:5rem;
+    }
+
+    .main-image {
+        width: 100%;
+        padding:5px;
+    }
+
+    .projects {
+        margin-top:70px;
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .project-photo {
+        padding:15px;
+    }
+
+    .projects h2 {
+        font-size: 30px;
+        margin-left:19rem;
+        margin-right:19rem;
+    }
+
+    .about-me-div {
+        margin-top: 70px;
+        width: 90%;
+        padding-top: 20px;
+        padding-bottom:20px;   
+    }
+
+    .about-me h2 {
+        font-size: 30px;
+        margin-left:22rem;
+        margin-right:22rem;
+        border-radius: 5px;
+    }
+
+    .about-me-photo {
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    .about-me-text {
+        font-size: 16px;
+    }
+
+    .contact-text {
+        font-size: 30px;
+    }
+
+    .contact {
+        font-size:20px;
+    }
+
+    .contact-page li {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 765px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    nav li {
+        font-size: 25px;
+    }
+
+    .headline {
+        font-size: 32px;
+        margin-top:100px;
+        width:85%;
+    } 
+
+    .main-image {
+        width: 100%;
+        padding:5px;
+    }
+
+    .projects {
+        margin-top:150px;
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .project-photo {
+        padding:15px;
+    }
+
+    .projects h2 {
+        font-size: 45px;
+        margin-left:25rem;
+        margin-right:25rem;
+    }
+
+    .about-me-div {
+        margin-top: 150px;
+        width: 90%;
+        padding-top: 20px;
+        padding-bottom:20px;   
+    }
+
+    .about-me h2 {
+        font-size: 45px;
+        margin-left:22rem;
+        margin-right:22rem;
+        border-radius: 5px;
+    }
+
+    .about-me-photo {
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    .about-me-text {
+        font-size: 25px;
+    }
+
+    .contact-text {
+        font-size: 35px;
+    }
+
+    .contact {
+        font-size:25px;
+    }
+
+    .contact-page li {
+        font-size: 60px;
+    }
+
+}
 
